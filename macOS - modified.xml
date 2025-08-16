@@ -1,6 +1,11 @@
 <keymap version="1" name="macOS - modified" parent="Mac OS X 10.5+">
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
   <action id="Android.CleanRun" />
   <action id="Build" />
+  <action id="CIDR.Lang.Cpp.GenerateDefinitions" />
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
     <keyboard-shortcut first-keystroke="shift meta h" />
@@ -14,6 +19,7 @@
   <action id="CompareTwoFiles" />
   <action id="CompileDirty" />
   <action id="Console.TableResult.CloneRow" />
+  <action id="Console.TableResult.CompareCells" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="shift f9" />
@@ -21,6 +27,7 @@
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FindNext" />
@@ -50,6 +57,7 @@
   <action id="GotoTypeDeclaration">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
     <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="List-selectFirstRowExtendSelection" />
   <action id="List-selectLastRowExtendSelection" />
@@ -70,8 +78,6 @@
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
-
-
   <action id="NextWindow" />
   <action id="OpenInlineChatAction">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -135,6 +141,7 @@
   <action id="android.device.home.button" />
   <action id="android.device.rotate.right" />
   <action id="android.device.sleep" />
+  <action id="android.device.volume.down.button" />
   <action id="android.device.wear1.button" />
   <action id="android.emulator.xr.recenter">
     <keyboard-shortcut first-keystroke="ctrl r" />
