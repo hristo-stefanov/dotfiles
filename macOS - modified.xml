@@ -1,0 +1,150 @@
+<keymap version="1" name="macOS - modified" parent="Mac OS X 10.5+">
+  <action id="Android.CleanRun" />
+  <action id="Build" />
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
+  </action>
+  <action id="ChangesView.Move" />
+  <action id="ChangesView.ShelveSilently" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="meta space" />
+  </action>
+  <action id="Compare.SameVersion" />
+  <action id="CompareTwoFiles" />
+  <action id="CompileDirty" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FindNext" />
+  <action id="FindPrevious" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
+  <action id="Frontend.ChangesView.ShowDiff" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift meta back_quote" />
+  </action>
+  <action id="GitLab.Merge.Request.List.Refresh" />
+  <action id="GitLab.Merge.Request.Refresh" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+  </action>
+  <action id="GotoDeclarationOnly">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+    <mouse-shortcut keystroke="meta alt button1" />
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <mouse-shortcut keystroke="shift meta button1" />
+  </action>
+  <action id="List-selectFirstRowExtendSelection" />
+  <action id="List-selectLastRowExtendSelection" />
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+
+
+  <action id="NextWindow" />
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="PreviousWindow" />
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="shift f10" />
+  </action>
+  <action id="ShowRecentTests" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="meta alt f7" />
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift meta space" />
+  </action>
+  <action id="Svn.RefreshWorkingCopies" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="meta caps_lock" />
+  </action>
+  <action id="Terminal.NewTab" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
+  <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.RefreshFileHistory" />
+  <action id="Vcs.UpdateProject" />
+  <action id="XDebugger.CopyValue" />
+  <action id="XDebugger.MoveWatchDown" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
+  </action>
+  <action id="android.device.back.button" />
+  <action id="android.device.home.button" />
+  <action id="android.device.rotate.right" />
+  <action id="android.device.sleep" />
+  <action id="android.device.wear1.button" />
+  <action id="android.emulator.xr.recenter">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="android.streaming.xr.hand.tracking">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="android.streaming.xr.view.direction">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="copilot.disposeInlays" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+</keymap>
