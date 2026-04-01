@@ -42,3 +42,12 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 " vim: set ft=vim :
+
+" Commands
+" ==============================================================================
+"
+" NOTE: User commands start with a capital letter.
+"
+" Open Terminal Here
+" Changes the local current directory to the directory of the current file and opens the terminal (handles relative paths too)
+command! Oth execute 'lcd' fnameescape(expand('%:p:h')) | terminal
