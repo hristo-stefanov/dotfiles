@@ -36,7 +36,10 @@ set termencoding=utf-8
 set ttimeout
 set ttimeoutlen=100
 set wildmenu
+" Highlights the current line
 set cursorline
+" Auto-indents new lines. Consider `smartindent` and `cindent` (for C lang) too.
+set autoindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
