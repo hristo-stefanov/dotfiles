@@ -13,12 +13,17 @@ nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(netrw#GX(),netrw#CheckI
 inoremap  u
 let &cpo=s:cpo_save
 unlet s:cpo_save
-set background=dark
 set backspace=indent,eol,start
 set display=truncate
 set fileencodings=ucs-bom,utf-8,default,latin1
 set guifont=Noto\ Mono\ 14
+
+" Some color schemes, such as macvim, support `dark` and `light` backgrounds,
+" but most stock ones don't.
+" This must be before `colorscheme`!!!
+"set background=dark
 colorscheme morning
+
 set helplang=en
 set history=200
 set incsearch
