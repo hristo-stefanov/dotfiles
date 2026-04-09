@@ -16,13 +16,19 @@ unlet s:cpo_save
 set backspace=indent,eol,start
 set display=truncate
 set fileencodings=ucs-bom,utf-8,default,latin1
-set guifont=Noto\ Mono\ 14
+
+" Enable truecolor support if this vim build supports it.
+" It's needed to properly render the color specified by `highlight`.
+if has('termguicolors')
+    set termguicolors
+endif
 
 " Some color schemes, such as macvim, support `dark` and `light` backgrounds,
 " but most stock ones don't.
 " This must be before `colorscheme`!!!
-"set background=dark
+set background=light
 colorscheme morning
+highlight Normal guibg=#EAE3DB
 
 set helplang=en
 set history=200
@@ -41,15 +47,16 @@ set termencoding=utf-8
 set ttimeout
 set ttimeoutlen=100
 set wildmenu
+
 " Highlights the current line
 set cursorline
+
 " Auto-indents new lines. Consider `smartindent` and `cindent` (for C lang) too.
 set autoindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-" vim: set ft=vim :
 
 " Commands
 " ==============================================================================
