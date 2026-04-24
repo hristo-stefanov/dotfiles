@@ -3,7 +3,7 @@ export EDITOR=vim
 # Enable vim keybinding
 bindkey -v
 
-# Show vim mode in prompt
+# Indicate vim mode with cursor shape
 function zle-keymap-select {
     if [[ $KEYMAP == vicmd ]]; then
         printf '\e[1 q' # block
@@ -13,7 +13,13 @@ function zle-keymap-select {
 }
 
 function zle-line-init {
-    printf '\e[5 q' # beam on prompt start
+    # set cursor shape to beam on prompt start
+    printf '\e[5 q' 
+}
+
+function preexec {
+    # set cursor shape to block before running external commands such as vim
+    printf '\e[1 q' 
 }
 
 zle -N zle-keymap-select
