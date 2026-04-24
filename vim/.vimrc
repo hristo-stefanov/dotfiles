@@ -2,18 +2,14 @@
 source $VIMRUNTIME/defaults.vim
 
 
-" Enable truecolor support if this vim build supports it.
-" It's needed to properly render the color specified by `highlight`.
-if has('termguicolors')
-    set termguicolors
-endif
-
 " Some color schemes, such as macvim, support `dark` and `light` backgrounds,
 " but most stock ones don't.
 " This must be before `colorscheme`!!!
 set background=light
 colorscheme morning
-highlight Normal guibg=#EAE3DB
+
+" Needed for the stock vim on macOS
+syntax on
 
 " Highlights the current line
 set cursorline
