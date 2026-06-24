@@ -1,13 +1,6 @@
 " Get the defaults that most users want
 source $VIMRUNTIME/defaults.vim
 
-
-" Some color schemes, such as macvim, support `dark` and `light` backgrounds,
-" but most stock ones don't.
-" This must be before `colorscheme`!!!
-set background=light
-colorscheme morning
-
 " Needed for the stock vim on macOS
 syntax on
 

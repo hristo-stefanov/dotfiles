@@ -1,8 +1,8 @@
 set columns=80
 set lines=35
 
-" Setting `highlight` in .vimrc doesn't work well in the terminal on Linux and
-" macOS even when `set termguicolors` is used. Henece, I use it only for GUIs.
+" In the terminal, vim adapts to the color scheme of the terminal emulator so 
+" setting `highlight` in .vimrc doesn't work well. That's why, I use it only for GUIs.
 
 if has("gui_macvim")
     " MacVim
@@ -13,7 +13,11 @@ if has("gui_macvim")
 else
     " Gvim
 
-    colorscheme morning
+    " Sets the background color
     highlight Normal guibg=#EAE3DB
+
+    " Highlights the current line by underlining
+    highlight CursorLine gui=underline
+
     set guifont=Noto\ Mono\ 14
 endif
