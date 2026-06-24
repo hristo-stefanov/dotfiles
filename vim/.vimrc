@@ -14,6 +14,13 @@ syntax on
 " Highlights the current line
 set cursorline
 
+" Don't do soft-wrapping in the middle of words
+set linebreak
+" Indent when soft-wrapping
+set breakindent
+" Set set-wrapping indicator
+set showbreak=›\ 
+
 " Auto-indents new lines. Consider `smartindent` and `cindent` (for C lang) too.
 set autoindent
 
