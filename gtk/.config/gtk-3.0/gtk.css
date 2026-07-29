@@ -1,0 +1,8 @@
+/*
+ * Increase the text caret thickness in LibreOfficel Writer v7.3.
+ * LibreOffice's GTK3 interface ignores gtk-cursor-aspect-ratio in
+ * settings.ini, but honours this older GTK widget style property.
+ */
+* {
+    -GtkWidget-cursor-aspect-ratio: 0.15;
+}
