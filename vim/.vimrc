@@ -1,6 +1,11 @@
 " Get the defaults that most users want
 source $VIMRUNTIME/defaults.vim
 
+" Use copy instead of rename to backup files when saving. This preserves the
+" orignal file inode and birth timestamp among other things. It can be slower for
+" huge files though.
+set backupcopy=yes
+
 " Needed for the stock vim on macOS
 syntax on
 
