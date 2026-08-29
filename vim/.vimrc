@@ -33,6 +33,22 @@ set expandtab
 "
 " NOTE: User commands start with a capital letter.
 "
-" Open Terminal Here
-" Changes the local current directory to the directory of the current file and opens the terminal (handles relative paths too)
-command! Oth execute 'lcd' fnameescape(expand('%:p:h')) | terminal
+command! Th call TerminalHere()
+
+function! TerminalHere()
+    if &filetype ==# 'netrw' && exists('b:netrw_curdir')
+        let l:dir = b:netrw_curdir
+    elseif expand('%:p') !=# ''
+        let l:dir = expand('%:p:h')
+    else
+        let l:dir = getcwd()
+    endif
+
+    if has('macunix')
+        call job_start(['open', '-a', 'Terminal', l:dir])
+    else
+        call job_start(['x-terminal-emulator'], {'cwd': l:dir})
+    endif
+endfunction
+
+
